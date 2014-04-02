@@ -1,0 +1,44 @@
+name: Freecine Translations
+pygments: false
+markdown: kramdown
+paginate: 10
+version: 1
+seo:
+  author: "Kamran Hakiman, Scott Schaffter - Bivee LLC"
+  description: ""
+  keywords:
+
+contact:
+  phone: ''
+  email: ''
+  address-line1: ''
+  address-line2: ''
+  address-line3: ''
+  map-link: ''
+
+baseurl: /
+permalink: /:title
+
+social:
+google:
+  analytics : ''
+  domain: ''
+
+assets:
+  img: '/assets/images/'
+  css: '/assets/css/'
+  js: '/assets/js/'
+
+prose:
+  rooturl: '_posts'
+  siteurl: ''
+  media: 'uploads'
+  ignore:
+    - index.md
+    - index.html
+    - _config.yml
+    - /_layouts
+    - /_includes
+
+  metadata:
+    _posts:
