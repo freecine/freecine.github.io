@@ -190,7 +190,7 @@
 			$('.scrolly').n33_scrolly();
 
 		// Initialize dropotron
-			$('#nav > ul').dropotron(helios_settings.dropotron);
+			// $('#nav > ul').dropotron(helios_settings.dropotron);
 
 		// Initialize carousels
 			$('.carousel').each(function() {
