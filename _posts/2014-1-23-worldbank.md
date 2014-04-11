@@ -1,7 +1,7 @@
 ---
 category: carousel
-title: 'Cool thins'
+title: Terminator 2
 image: worldbank.png
 link: "http://www.worldbank.org/"
 ---
-I LIKE CAKE toos!!
+This is a movie translation project
