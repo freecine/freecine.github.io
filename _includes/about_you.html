@@ -1,0 +1,24 @@
+    <!-- About You -->
+      <div id="about_you" class="wrapper style2">
+        
+        <section  class="container special">
+          <header>
+           {% for post in site.categories.about_you_header %}
+            <h2>{{post.title}}</h2>
+            <span class="byline">{{post.sub-title}}</span>
+            {% endfor %}
+          </header>
+          <div id="about_you_container" class="row">
+           {% for post in site.categories.about_you %}              
+              <div class="3u mix client" data-postorder="{{post.order}}">              
+                <header>
+                  <img src="{{ site.assets.logos }}{{ post.logo }}" />
+                  <h3>{{ post.title }}</h3>
+                </header>                
+                  <p>{{ post.sub-title }}</p>
+              </div>              
+            {% endfor %}
+          </div>
+        </section>
+
+      </div>

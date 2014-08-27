@@ -1092,8 +1092,7 @@
 		{
 			position: relative;
 			z-index: 1;
-			margin: 0;
-			padding: 4em 0 0 0;
+			margin: 0;			
 		}
 
 		#header .overlay
@@ -1142,8 +1141,7 @@
 		}
 		
 		#header .logo {
-			width: 20em;
-			margin-top:3em;
+			max-width: 20em;			
 		}
 
 		#header header
@@ -1177,7 +1175,7 @@
 /*********************************************************************************/
 
 	#nav
-	{
+	{		
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -1185,8 +1183,22 @@
 		text-align: center;
 		padding: 1em 0 1em 0;
 		/*z-index: 1;*/
-		overflow: hidden;
+		overflow: hidden;	
+		z-index: 9999;	
 	}
+
+	#nav.fixed{
+		background: #fff;
+		position: fixed;
+		color: #5b5b5b;
+		box-shadow: #5b5b5b 1px 1px 11px;
+	}
+
+	#nav .highlight{
+		background: #F29DB7;
+		color: #fff;
+	}
+
 	
 		#nav > ul
 		{
@@ -1231,7 +1243,7 @@
 			{
 				display: inline-block;
 				margin: -9px 0.5em 0 0.5em;
-				border-radius: 0.5em;
+				border-radius: 0.2em;
 				padding: 0.85em;
 				border: solid 1px transparent;
 				-moz-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
@@ -1589,3 +1601,61 @@
 			{
 				text-align: center;
 			}
+
+
+/*********************************************************************************/
+/* Lets Talk                                                                     */
+/*********************************************************************************/			
+
+		#lets_talk i {
+			color: #F29DB7;			
+		}
+
+		#lets_talk header h3 {
+			margin-top: 2em;
+		}
+
+		#lets_talk article {
+			margin-top: 2em;
+		}
+
+
+/*********************************************************************************/
+/* About You                                                                     */
+/*********************************************************************************/			
+
+		#about_you h2 {
+			padding-top: 1.2em;		
+		}
+
+		#about_you_container{
+			background-color: #F29DB7;
+			padding:2em !important;		
+			margin:0px;
+		}
+
+
+		#about_you img {
+			max-width: 70%;
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
+			margin-bottom: 1.2em;
+		}
+
+		#about_you .client{
+			background: #fff;
+			padding:2em !important;
+			margin-left:4em;
+			color: #5b5b5b;
+			min-height: 26em;
+		}
+
+		#about_you .client h3{
+			text-align: center;
+			text-transform: uppercase;
+		}
+
+		#about_you section.container{
+			width:100%;
+		}

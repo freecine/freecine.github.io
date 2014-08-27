@@ -1,0 +1,26 @@
+    <!-- Lets Talk -->
+      <div id="lets_talk" class="wrapper style1">
+        
+        <section  class="container special">
+          <header>
+           {% for post in site.categories.lets_talk_header %}
+            <h2>{{post.title}}</h2>
+            <span class="byline">{{post.sub-title}}</span>
+            {% endfor %}
+          </header>
+          <div id="lets_talk_container" class="row">
+           {% for post in site.categories.lets_talk reversed %}              
+              <article class="6u special" data-postorder="{{post.order}}">              
+                <header>
+                  <i class="fa {{post.icon}} fa-4x"></i>
+                  <h3>{{ post.title }}</h3>
+                </header>
+                <p>
+                  {{ post.content }}
+                </p>
+              </article>              
+            {% endfor %}
+          </div>
+        </section>
+
+      </div>

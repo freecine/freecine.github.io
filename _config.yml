@@ -1,12 +1,12 @@
 name: Freecine Translations
-pygments: false
+highlighter: null
 markdown: kramdown
 paginate: 10
 version: 1
 seo:
-  author: "Kamran Hakiman, Scott Schaffter - Bivee LLC"
-  description: ""
-  keywords:
+  author: "Scott Schaffter - Bivee LLC"
+  description: "Superb French to English Translations - focusing on international development, legal and film translation."
+  keywords: 'English to French Legal Translation, Spanish to French Translation, NGOs, International Organizations, Law Firms, International Courts, Subtitling'
 
 contact:
   phone: ''
@@ -28,6 +28,7 @@ assets:
   img: '/assets/images/'
   css: '/assets/css/'
   js: '/assets/js/'
+  logos: '/assets/images/client_logos/'
 
 prose:
   rooturl: '_posts'
