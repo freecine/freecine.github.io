@@ -22,12 +22,10 @@ $(document).ready(function() {
      var height = $(window).height();
 
      if (width > 768 && scroll > height) {
-         $("#nav").addClass("fixed").slideDown(400);
+         $("#header #nav").addClass("fixed").slideDown(400);         
      } else if (width > 768 && scroll < height) {
-         $("#nav").removeClass("fixed");
-     } else if (width > 768 && scroll > height) {
-         $("#nav").addClass("fixed").slideDown(400);
-     }
+         $("#header #nav").removeClass("fixed");
+     }     
   });
 
   // Mix-it Up for sort order on "Lets Talk" SEction

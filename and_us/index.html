@@ -1,0 +1,73 @@
+---
+title: And Us
+---
+
+{% include header.html %}
+ <div id="header_single">
+  {% include nav.html %}
+ </div>
+ <div id="single-aboutus" class="wrapper style1">
+
+        <div class="container">
+          <div class="row">
+            <div class="4u" id="sidebar">
+            {% for post in site.categories.and_us_header %}
+                <img src="{{ site.assets.img }}{{ post.image }}" class="about_us"/>    
+            {% endfor %}   
+            </div>
+
+            <div class="8u skel-cell-important" id="content">
+              <article id="main">
+                <header>
+                {% for post in site.categories.and_us_header %}
+                  <h2>{{post.title}}</h2>
+                  <span class="byline">
+                    {{post.sub-title}}
+                  </span>
+                </header>
+                {% endfor %}
+                
+                {% for post in site.categories.about_us_latest_news %}
+                  <section>
+                    <header>
+                      <h3>{{post.title}}</h3>
+                    </header>                    
+                      {{ post.content }}
+                  </section>
+                {% endfor %}
+
+                {% for post in site.categories.about_us_background %}
+                  <section>
+                    <header>
+                      <h3>{{post.title}}</h3>
+                    </header>                    
+                      {{ post.content }}
+                  </section>
+                {% endfor %}
+
+                {% for post in site.categories.about_us_translation %}
+                  <section>
+                    <header>
+                      <h3>{{post.title}}</h3>
+                    </header>                    
+                      {{ post.content }}
+                  </section>
+                {% endfor %}
+
+                {% for post in site.categories.about_us_workflow %}
+                  <section>
+                    <header>
+                      <h3>{{post.title}}</h3>
+                    </header>                    
+                      {{ post.content }}
+                  </section>
+                {% endfor %}
+              </article>
+            </div>
+          </div>          
+        </div>
+
+      </div>
+
+
+{% include footer.html %}

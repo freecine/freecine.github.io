@@ -1064,29 +1064,6 @@
 		{
 			padding: 4em 0 4em 0;
 		}
-	
-/*			.homepage #header .overlay
-			{
-				content: '';
-				background: #1C0920;
-				display: block;
-				position: absolute;
-				left: 0;
-				top: 0;
-				width: 100%;
-				height: 100%;
-				opacity: .3;
-				-moz-transition: opacity 2s ease-in-out;
-				-webkit-transition: opacity 2s ease-in-out;
-				-o-transition: opacity 2s ease-in-out;
-				-ms-transition: opacity 2s ease-in-out;
-				transition: opacity 2s ease-in-out;
-			}
-		
-			.homepage #header.ready .overlay
-			{
-				opacity: 0;
-			}*/
 
 		#header .inner
 		{
@@ -1100,7 +1077,7 @@
 		position:absolute;
 		top:0;
 		left:0;
-		background: rgba(0,0,0,.3);
+		background: rgba(0,0,0,.4);
 		width: 100%;
 		height:100%;
 		z-index: -1;
@@ -1246,11 +1223,6 @@
 				border-radius: 0.2em;
 				padding: 0.85em;
 				border: solid 1px transparent;
-				-moz-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
-				-webkit-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
-				-o-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
-				-ms-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
-				transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
 			}
 			
 				#nav > ul > li:hover
@@ -1611,7 +1583,7 @@
 			color: #F29DB7;			
 		}
 
-		#lets_talk header h3 {
+		#lets_talk header h2 {
 			margin-top: 2em;
 		}
 
@@ -1619,13 +1591,21 @@
 			margin-top: 2em;
 		}
 
+		#lets_talk article header h3 {
+			margin-top: 2em;
+		}
+
 
 /*********************************************************************************/
 /* About You                                                                     */
 /*********************************************************************************/			
+	
+		#about_you{
+			margin:0px;			
+		}
 
-		#about_you h2 {
-			padding-top: 1.2em;		
+		#about_you header h2 {
+			padding-top: 4em;
 		}
 
 		#about_you_container{
@@ -1646,7 +1626,8 @@
 		#about_you .client{
 			background: #fff;
 			padding:2em !important;
-			margin-left:4em;
+			margin: 2em;
+			margin-left: 4em;
 			color: #5b5b5b;
 			min-height: 26em;
 		}
@@ -1659,3 +1640,63 @@
 		#about_you section.container{
 			width:100%;
 		}
+
+		#about_you a.learn-more{			
+			background: rgba(128,128,128,0.05);
+			border-radius: 4em;
+			display: inline-block;
+			padding: 0.35em 0.75em 0.35em 0.75em;
+			font-weight: 400;
+			margin-right: auto;
+			margin-left: auto;
+			display: block;
+			width: 50%;
+			text-align: center;			
+		}
+
+/*********************************************************************************/
+/* Client - Single Page Layout                                                   */
+/*********************************************************************************/		
+
+#sidebar img{
+	max-width: 80%;
+}
+
+#single-client, #single-aboutus{
+	margin:0px;
+	padding-top: 12em;
+}
+
+
+/*********************************************************************************/
+/* Front Page                                                                    */
+/*********************************************************************************/	
+
+#nav .nav-logo{
+	display:none;
+}
+
+#nav.fixed img.nav-logo, #header_single img.nav-logo{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	max-height: 65px;
+	margin-bottom: 1em;
+}
+
+
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/		
+
+	#footer strong {
+		font-weight: 800;
+		color: rgb(128,128,128);
+	}
+
+	#footer a.contact{
+		border-bottom: 1px solid #F29DB7;
+	}
+
+

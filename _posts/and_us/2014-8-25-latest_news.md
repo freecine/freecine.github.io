@@ -1,0 +1,7 @@
+---
+category: about_us_latest_news
+title: Our latest news
+---
+Freecine Translations has multilingual and various fields of expertise in different industries. They work from and into any language, and can provide legal translations for private and public companies, courts and law firms; specialized translations for international organizations; and audiovisual translations (subtitling) for movie studios, TV networks and any private clients who wish to have their videos subtitled. Freecine Translations counts with a team of highly qualified professional translators who can work on any text or audiovisual content from and to many languages. The current team includes highly trained and experienced translators from around the world, including French translators trained at prestigious NYU and Translation and Interpretation School, Geneva, Switzerland; NYU trained English translators and interpreters, and Spanish translators trained at the Universitat Autònoma de Barcelona, Barcelona area, Spain.
+
+Francine has transmitted her passion for accuracy, her constant attention to detail, and the desire to produce highly customized product that have made her success to Freecine Translations. Each product gets thoroughly checked by native target languages speakers. With loyal clients who have praised the quality of Francine’s work for over 10 years, and an ever-growing base of clients, Freecine Translations is ready to work with other clients, maintaining the stellar quality that has made her reputation.

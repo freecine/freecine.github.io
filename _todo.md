@@ -4,3 +4,5 @@
      - Add other sections. 
      - Jekyllize
      - Add nico images
+     - http://tympanus.net/Tutorials/ThumbnailGridExpandingPreview/
+     - add logo to nav when scrolling down.

@@ -1,0 +1,32 @@
+{% include header.html %}
+ <div id="header_single">
+  {% include nav.html %}
+ </div>
+ <div id="single-client" class="wrapper style1">
+
+        <div class="container">
+          <div class="row">
+            <div class="4u" id="sidebar">
+                <img src="{{ site.assets.logos }}{{ page.logo }}" class="client-logo"/>       
+            </div>
+            <div class="8u skel-cell-important" id="content">
+              <article id="main">
+                <header>
+                  <h2>{{page.title}}</h2>
+                  <span class="byline">
+                    {{page.sub-title}}
+                  </span>
+                </header>
+                
+                <p>
+                 {{ content }}
+                </p>
+              </article>
+            </div>
+          </div>          
+        </div>
+
+      </div>
+
+
+{% include footer.html %}
