@@ -3,13 +3,13 @@
         
         <section  class="container special">
           <header>
-           {% for post in site.categories.lets_talk_header %}
+           {% for post in site.categories.talk_header %}
             <h2>{{post.title}}</h2>
             <span class="byline">{{post.sub-title}}</span>
             {% endfor %}
           </header>
           <div id="lets_talk_container" class="row">
-           {% for post in site.categories.lets_talk reversed %}              
+           {% for post in site.categories.lets_talk %}              
               <article class="6u special" data-postorder="{{post.order}}">              
                 <header>
                   <i class="fa {{post.icon}} fa-4x"></i>
