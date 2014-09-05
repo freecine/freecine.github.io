@@ -52,7 +52,7 @@
 
 	h2
 	{
-		font-size: 2.85em;
+		font-size: 2.2em;
 	}
 	
 	h3
@@ -69,7 +69,7 @@
 	.byline
 	{
 		display: block;
-		font-size: 1.5em;
+		font-size: 1em;
 		margin-top: 1em;
 		line-height: 1.5em;
 	}
@@ -132,6 +132,8 @@
 	p
 	{
 		text-align: justify;
+		font-size: .8em;
+		line-height: 180%;
 	}
 
 	br.clear
@@ -1584,7 +1586,7 @@
 		}
 
 		#lets_talk header h2 {
-			margin-top: 2em;
+			margin-top: 1.1em;
 		}
 
 		#lets_talk article {
@@ -1592,7 +1594,7 @@
 		}
 
 		#lets_talk article header h3 {
-			margin-top: 2em;
+			margin-top: .5em;
 		}
 
 
@@ -1610,8 +1612,25 @@
 
 		#about_you_container{
 			background-color: #F29DB7;
-			padding:2em !important;		
+			padding:3em 5em 3em 10em !important;
 			margin:0px;
+		}
+
+		.widest #about_you_container {
+			padding:3em 5em 3em 15em !important;
+		}
+
+		.wide #about_you_container {
+			padding:3em 5em 3em 11em !important;
+		}
+
+		.normal.wide #about_you_container{
+			padding:3em 5em 3em 10em !important;
+		}
+
+
+		.normal.mobile #about_you_container{
+			padding:3em 4em 3em 4em !important;
 		}
 
 
@@ -1625,9 +1644,9 @@
 
 		#about_you .client{
 			background: #fff;
-			padding:2em !important;
-			margin: 2em;
-			margin-left: 4em;
+			padding:1.2em !important;
+			margin: 1em;
+			/*margin-left: 1.2em;*/
 			color: #5b5b5b;
 			min-height: 26em;
 		}
@@ -1643,15 +1662,17 @@
 
 		#about_you a.learn-more{			
 			background: rgba(128,128,128,0.05);
-			border-radius: 4em;
+			border-radius: 20px;
 			display: inline-block;
 			padding: 0.35em 0.75em 0.35em 0.75em;
 			font-weight: 400;
 			margin-right: auto;
 			margin-left: auto;
 			display: block;
-			width: 50%;
-			text-align: center;			
+			width: 70%;
+			text-align: center;
+			font-size:.8em;
+			te		
 		}
 
 /*********************************************************************************/
@@ -1684,7 +1705,20 @@
 	margin-bottom: 1em;
 }
 
+/*********************************************************************************/
+/* General                                                                       */
+/*********************************************************************************/
 
+.center{
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+img.about_us{
+	height: 325px;
+	margin-bottom: 25px;
+}
 
 /*********************************************************************************/
 /* Footer                                                                        */
