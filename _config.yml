@@ -63,3 +63,17 @@ prose:
         field:
           element: "number"
           label: "Enter the order number of the posts"
+    _posts/about_you_content:
+        - name: "category"
+        field:
+          element: "hidden"
+          value: "about_you"
+    _posts/lets_talk_content:
+        - name: "category"
+        field:
+          element: "hidden"
+          value: "lets_talk"
+
+
+
+

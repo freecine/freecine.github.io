@@ -15,14 +15,23 @@ title: And Us
                 <img class="center about_us" src="{{ site.assets.img }}{{ post.image }}"/>    
             {% endfor %}
 
-              {% for post in site.categories.about_us_background %}
+            {% for post in site.categories.about_us_background %}
               <section>
                 <header>
                   <h3>{{post.title}}</h3>
                 </header>                    
                   {{ post.content }}
               </section>
-            {% endfor %}  
+            {% endfor %}
+
+            <h3 class="partner">Our Partners</h3>
+            {% for post in site.categories.partner %}
+              <section>
+              <a class="partner_logo" href="{{ post.url }}" target="blank">
+                <img src="{{ site.assets.logos }}{{ post.logo }}"/>
+              </a>                
+              </section>
+            {% endfor %}    
             </div>
 
             <div class="7u -1u skel-cell-important" id="content">

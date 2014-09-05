@@ -1671,8 +1671,7 @@
 			display: block;
 			width: 70%;
 			text-align: center;
-			font-size:.8em;
-			te		
+			font-size:.8em;	
 		}
 
 /*********************************************************************************/
@@ -1718,6 +1717,45 @@
 img.about_us{
 	height: 325px;
 	margin-bottom: 25px;
+}
+
+/*********************************************************************************/
+/* About Us                                                                      */
+/*********************************************************************************/
+#sidebar a.partner_logo img {
+  height: 100%;
+  max-width: 30%;
+  height: auto;
+  /*max-height: 100px;*/
+  padding: 20px;
+  vertical-align: middle;
+  opacity: 0.8;
+  -moz-opacity: 0.8;
+  -webkit-opacity: 0.8;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+  filter: alpha(opacity=80);
+  *zoom: 1;
+  transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -webkit-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+}
+#sidebar a.partner_logo img:hover {
+  opacity: 1;
+  -moz-opacity: 1;
+  -webkit-opacity: 1;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+  filter: alpha(opacity=100);
+  *zoom: 1;
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -o-transform: scale(1.15);
+}
+
+h3.partner{
+	margin-top:20px;
 }
 
 /*********************************************************************************/
