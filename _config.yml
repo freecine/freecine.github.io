@@ -79,7 +79,19 @@ prose:
         field:
           element: "number"
           label: "Enter the order number of the posts"
-
+    _posts/and_us_content/partners:
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "partners"
+      - name: "url"
+        field:
+          element: "text"
+          label: "Enter the url of the partner website"
+      - name: "logo"
+        field:
+          element: "text"
+          label: "Enter the name of the logo image you have uploded"
 
 
 
