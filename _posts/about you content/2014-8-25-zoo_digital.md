@@ -9,4 +9,4 @@ order: 1
 published: true
 ---
 
-We translated movies for them, including feature films for Netflix and Warner Bros. 
+![](//zoo_logo.png)We translated movies for them, including feature films for Netflix and Warner Bros.
