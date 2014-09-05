@@ -51,3 +51,15 @@ prose:
       - name: "category"
         field:
           element:"hidden"
+      - name: "subtitle"
+        field:
+          element:"textarea"
+          label: 'Enter a subtitle area about the client'
+      - name: "logo"
+        field:
+          element:"text"
+          label: 'Enter the name of the logo image you have uploded'
+      - name: "order"
+        field:
+          element:"number"
+          label: 'Enter the order number of the posts'
