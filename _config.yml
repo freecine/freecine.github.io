@@ -35,7 +35,7 @@ assets:
 prose:
   rooturl: '_posts'
   siteurl: 'demo.bivee.co'
-  media: 'uploads'
+  media: 'assets/images'
   ignore:
     - index.md
     - index.html
