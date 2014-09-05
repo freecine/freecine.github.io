@@ -9,5 +9,4 @@ order: 1
 published: true
 ---
 
-![zoo_logo.png](/zoo_logo.png)
 We translated movies for them, including feature films for Netflix and Warner Bros. 
