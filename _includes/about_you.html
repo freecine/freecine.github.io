@@ -5,7 +5,7 @@
           <header>
            {% for post in site.categories.header_about_you %}
             <h2>{{post.title}}</h2>
-            <span class="byline">{{post.sub-title}}</span>
+            <span class="byline">{{post.subtitle}}</span>
             {% endfor %}
           </header>
           <div id="about_you_container" class="row">
@@ -15,7 +15,7 @@
                   <img src="{{ site.assets.logos }}{{ post.logo }}" />
                   <h3>{{ post.title }}</h3>
                 </header>                
-                  <p>{{ post.sub-title }}</p>
+                  <p>{{ post.subtitle }}</p>
                   <a href="{{post.url}}" class="learn-more">Learn More</a>
               </div>              
             {% endfor %}

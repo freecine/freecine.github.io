@@ -30,12 +30,12 @@ assets:
   img: '/assets/images/'
   css: '/assets/css/'
   js: '/assets/js/'
-  logos: '/assets/images/client_logos/'
+  logos: '/assets/images/uploads/'
 
 prose:
   rooturl: '_posts'
-  siteurl: 'freecinetranslations.com'
-  media: 'assets/images'
+  siteurl: 'demo.bivee.co'
+  media: 'assets/images/uploads'
   ignore:
     - index.md
     - index.html
@@ -45,3 +45,21 @@ prose:
 
   metadata:
     _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+      - name: "category"
+        field:
+          element: "hidden"
+      - name: "subtitle"
+        field:
+          element: "textarea"
+          label: "Enter a subtitle area about the client"
+      - name: "logo"
+        field:
+          element: "text"
+          label: "Enter the name of the logo image you have uploded"
+      - name: "order"
+        field:
+          element: "number"
+          label: "Enter the order number of the posts"

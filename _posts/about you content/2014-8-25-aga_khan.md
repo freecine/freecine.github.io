@@ -2,7 +2,7 @@
 category: about_you
 layout: client-layout
 title: Population Services International
-sub-title: "PSI is a leading International NGO focused on social Marketing and public Health, based in Washington, DC"
+subtitle: "PSI is a leading International NGO focused on social Marketing and public Health, based in Washington, DC"
 since: 2003
 logo: psi_logo.png
 order: 1
