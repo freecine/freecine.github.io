@@ -9,4 +9,4 @@ url:
 logo: Logo_GlobalFund_en.png
 ---
 
-![Logo_GlobalFund_en.png](/_posts/and_us_content/partners/Logo_GlobalFund_en.png)
+
