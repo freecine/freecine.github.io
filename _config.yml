@@ -30,12 +30,12 @@ assets:
   img: '/assets/images/'
   css: '/assets/css/'
   js: '/assets/js/'
-  logos: '/assets/images/client_logos/'
+  logos: '/assets/images/uploads/'
 
 prose:
   rooturl: '_posts'
   siteurl: 'demo.bivee.co'
-  media: 'assets/images'
+  media: 'assets/images/uploads'
   ignore:
     - index.md
     - index.html
