@@ -6,10 +6,11 @@ $(document).ready(function() {
 
   // Set Fullscreen slideshow images
 	$('#header').backstretch([
-		"assets/images/dc1.jpg",
-		"assets/images/legal.jpg",
-		"assets/images/citroen.jpg",
-    "assets/images/train.jpg"
+		"assets/images/slider_images/black_kids_africa.jpg",
+		"assets/images/slider_images/business.jpg",
+		"assets/images/slider_images/nyc_downtown_french_arch.jpg",
+    "assets/images/slider_images/judge.jpg",
+    "assets/images/slider_images/paris_at_night.jpg"
 		], {
 			fade: 750,
 			duration: 4000
@@ -37,6 +38,25 @@ $(document).ready(function() {
         target: 'article'
       }
     });
+
+  // Mix-it Up for sort order on "Lets Talk" SEction
+  $('#about_you_container').mixItUp({
+        load: {
+        sort: 'postorder:asc'
+      },
+    });
+
+  
+    /*********************************************************************************/
+    /* Live Chat Settings                                                            */
+    /*************************************** ******************************************/
+
+    $('.contact_us').click(function(){
+        $zopim(function() {
+        $zopim.livechat.window.toggle();
+      });
+    });
+
 
 
 });

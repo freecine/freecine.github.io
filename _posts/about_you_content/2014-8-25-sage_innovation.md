@@ -1,12 +1,11 @@
 ---
 category: about_you
 layout: "client-layout"
-title: Population Services International
-"subtitle": "PSI is a leading International NGO focused on social Marketing and public Health, based in Washington, DC"
+title: Sage Innovation
+"subtitle": "Sage Innovation is a private company working as a collaborative hub for global health experts, creative entrepreneurs and committed innovators. They help their clients make smart decisions about strategic planning, and create and launch new initiatives, programs and platforms to enable their clients to successfully deliver on their commitments. They work in global health."
 since: 2003
 logo: "sage-innovation-logo-FR.png"
-order: 1
+order: 6
 published: true
 ---
-
-PSI is one of our major clients. We translate for all their departments, including financial proposals to international donors for programs in emergency contexts in Africa, and Asia (e.g. “PSI Cameroon Prequalification Proposal to the German Bank KfW”, 2010), research reports, questionnaires and surveys (e.g. field manual for ACTWatch and outlet surveys, 2009), research protocols, training documents (e.g. online DELTA social marketing course, 2008), course materials, mission reports, logistics manuals, program concept notes, research briefings, executive summaries, program guides; conference presentations, annual reports, case studies, strategic plans, feature articles, strategic frameworks; business needs assessments; procedures and policies, agreements, guidance for reviews (e.g. “PSI Research Ethics Program Guidance for Ceding Review to an Alternate Ethical Committee”, and “Policy and Procedures Manual of the Research Ethics Board”, June 2012) in global health.
+Freecine Translations translated Sage Innovation’s website into French.

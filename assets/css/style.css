@@ -1635,7 +1635,8 @@
 
 
 		#about_you img {
-			max-width: 70%;
+			max-height: 100px;
+			max-width: 75%;
 			margin-left: auto;
 			margin-right: auto;
 			display: block;
@@ -1648,7 +1649,7 @@
 			margin: 1em;
 			/*margin-left: 1.2em;*/
 			color: #5b5b5b;
-			min-height: 26em;
+			min-height: 24em;
 		}
 
 		#about_you .client h3{
@@ -1672,6 +1673,15 @@
 			width: 70%;
 			text-align: center;
 			font-size:.8em;	
+		}
+
+		#about_you header{
+			min-height: 7em;
+		}
+
+		#about_you div.content{
+			position: relative;
+			bottom:15px;
 		}
 
 /*********************************************************************************/
@@ -1767,8 +1777,35 @@ h3.partner{
 		color: rgb(128,128,128);
 	}
 
-	#footer a.contact{
+	#footer a.contact_us{
 		border-bottom: 1px solid #F29DB7;
 	}
 
+	#footer .copyright{
+		color: #fff;
+	}
+
+	#footer .acknowledgement{
+		margin-top:60px;
+		font-style: italic;
+		text-align: center;
+		color: rgba(212,212,212,0.85);
+		font-size: 0.8em;	
+	}
+
+	#footer .acknowledgement a{
+		color: rgba(212,212,212,0.85);
+	}
+
+	#footer .acknowledgement a:hover{
+		color:#F29DB7;
+	}
+
+	#footer div.acknowledgement strong{
+		font-weight: 200;
+	}
+
+	#footer .acknowledgement h3{
+		margin-bottom:15px;
+	}
 
