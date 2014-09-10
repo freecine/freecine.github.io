@@ -1065,6 +1065,7 @@
 		.homepage #header
 		{
 			padding: 4em 0 4em 0;
+			z-index: 999;
 		}
 
 		#header .inner
