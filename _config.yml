@@ -4,7 +4,7 @@ markdown: kramdown
 paginate: 10
 version: 1
 seo:
-  author: "Scott Schaffter - Bivee LLC"
+  author: "Bivee LLC"
   description: "Superb French to English Translations - focusing on international development, legal and film translation."
   keywords: 'English to French Legal Translation, Spanish to French Translation, NGOs, International Organizations, Law Firms, International Courts, Subtitling'
 
@@ -34,7 +34,7 @@ assets:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'demo.bivee.co'
+  siteurl: 'freecinetranslations.com'
   media: 'assets/images/uploads'
   ignore:
     - index.md
