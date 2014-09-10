@@ -34,7 +34,7 @@ assets:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'freecinetranslations.com'
+  siteurl: 'demo.bivee.co'
   media: 'assets/images/uploads'
   ignore:
     - index.md
