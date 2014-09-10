@@ -1603,7 +1603,21 @@
 /*********************************************************************************/			
 	
 		#about_you{
-			margin:0px;			
+			margin:0px;	
+		}
+
+		#about_you header.table {
+		    display: table;
+		    border-collapse: collapse;
+		    width: 100%;
+		    height: 100%;
+		    position: relative;
+		    z-index: 2;
+		}
+		#about_you header.table .table-inner {
+		    display: table-cell;
+		    vertical-align: middle;
+		    text-align: center; 
 		}
 
 		#about_you header h2 {
@@ -1647,8 +1661,11 @@
 			background: #fff;
 			padding:1.2em !important;
 			margin: 1em;
+			/*margin-left: 1.2em;*/
 			color: #5b5b5b;
-			min-height: 26em;
+			min-height: 24em;
+			position: relative;
+			padding-bottom: 3em;
 		}
 
 		#about_you .client h3{
@@ -1656,8 +1673,15 @@
 			text-transform: uppercase;
 		}
 
-		#about_you section.container{
+		#about_you .container{
 			width:100%;
+			text-align: center !important;
+		}
+
+		#about_you .read-more{
+			position: absolute;
+			bottom: 1em;
+			width: 85%;
 		}
 
 		#about_you a.learn-more{			
@@ -1668,9 +1692,11 @@
 			font-weight: 400;
 			margin-right: auto;
 			margin-left: auto;
+			display: block;
 			width: 70%;
 			text-align: center;
-			font-size:.8em;	
+			font-size:.8em;
+			vertical-align: bottom;
 		}
 
 		#about_you header{
@@ -1678,8 +1704,10 @@
 		}
 
 		#about_you div.content{
-			  position:absolute;
-    		bottom:1em;
+			position: relative;
+			bottom:15px;
+			text-align: center !important;
+
 		}
 
 /*********************************************************************************/
@@ -1706,10 +1734,12 @@
 
 #nav.fixed img.nav-logo, #header_single img.nav-logo{
 	display:block;
+	position: relative;
 	margin-left:auto;
 	margin-right:auto;
 	max-height: 65px;
 	margin-bottom: 1em;
+	z-index: 100000;
 }
 
 /*********************************************************************************/
