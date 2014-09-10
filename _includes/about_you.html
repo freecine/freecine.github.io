@@ -11,14 +11,18 @@
           <div id="about_you_container" class="row">
            {% for post in site.categories.about_you %}              
               <div class="3u mix client" data-postorder="{{post.order}}">              
-                <header>
-                  <img src="{{ site.assets.logos }}{{ post.logo }}" />                  
+                <header class="table">
+                  <div class="table-inner">
+                    <img src="{{ site.assets.logos }}{{ post.logo }}" />
+                  </div>            
                 </header>
                 <div class="content">
                   <h3>{{ post.title }}</h3>                
                   <p>{{ post.subtitle | truncatewords: 20 }}</p>
-                  <a href="{{post.url}}" class="learn-more">Learn More</a>
                 </div> 
+                <div class="read-more">
+                  <a href="{{post.url}}" class="learn-more">Learn More</a>
+                </div>
               </div>              
             {% endfor %}
           </div>
