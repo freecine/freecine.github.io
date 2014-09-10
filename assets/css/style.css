@@ -1647,9 +1647,8 @@
 			background: #fff;
 			padding:1.2em !important;
 			margin: 1em;
-			/*margin-left: 1.2em;*/
 			color: #5b5b5b;
-			min-height: 24em;
+			min-height: 26em;
 		}
 
 		#about_you .client h3{
@@ -1669,7 +1668,6 @@
 			font-weight: 400;
 			margin-right: auto;
 			margin-left: auto;
-			display: block;
 			width: 70%;
 			text-align: center;
 			font-size:.8em;	
@@ -1680,8 +1678,8 @@
 		}
 
 		#about_you div.content{
-			position: relative;
-			bottom:15px;
+			  position:absolute;
+    		bottom:1em;
 		}
 
 /*********************************************************************************/
