@@ -1740,12 +1740,8 @@ img.about_us{
 /* About Us                                                                      */
 /*********************************************************************************/
 #sidebar a.partner_logo img {
-  height: 100%;
-  max-width: 30%;
-  height: auto;
-  /*max-height: 100px;*/
+  max-height: 100px;
   padding: 20px;
-  vertical-align: middle;
   opacity: 0.8;
   -moz-opacity: 0.8;
   -webkit-opacity: 0.8;
