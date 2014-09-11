@@ -1052,10 +1052,6 @@
 	#header
 	{
 		position: relative;
-		/*background-image: url('../images/header.jpg');
-		background-size: cover;
-		background-position: center center;
-		background-attachment: fixed;*/
 		color: #fff;
 		text-align: center;
 		padding: 2.5em 0 2em 0;
@@ -1162,7 +1158,6 @@
 		width: 100%;
 		text-align: center;
 		padding: 1em 0 1em 0;
-		/*z-index: 1;*/
 		overflow: hidden;	
 		z-index: 9999;	
 	}
@@ -1627,27 +1622,12 @@
 
 		#about_you_container{
 			background-color: #F29DB7;
-			padding:3em 5em 3em 10em !important;
-			margin:0px;
+			margin-left:auto;
+			margin-right:auto;
+			display:block;
+			position:relative;
+			max-width:100%;			
 		}
-
-		.widest #about_you_container {
-			padding:3em 5em 3em 15em !important;
-		}
-
-		.wide #about_you_container {
-			padding:3em 5em 3em 11em !important;
-		}
-
-		.normal.wide #about_you_container{
-			padding:3em 5em 3em 10em !important;
-		}
-
-
-		.normal.mobile #about_you_container{
-			padding:3em 4em 3em 4em !important;
-		}
-
 
 		#about_you img {
 			max-height: 100px;
@@ -1661,12 +1641,12 @@
 		#about_you .client{
 			background: #fff;
 			padding:1.2em !important;
-			margin: 1em;
-			/*margin-left: 1.2em;*/
+			margin: 2%;
 			color: #5b5b5b;
-			min-height: 24em;
+			min-height: 450px;
 			position: relative;
 			padding-bottom: 3em;
+			width:29.111%;
 		}
 
 		#about_you .client h3{
@@ -1688,7 +1668,6 @@
 		#about_you a.learn-more{			
 			background: rgba(128,128,128,0.05);
 			border-radius: 20px;
-			display: inline-block;
 			padding: 0.35em 0.75em 0.35em 0.75em;
 			font-weight: 400;
 			margin-right: auto;
@@ -1704,12 +1683,10 @@
 			min-height: 7em;
 		}
 
-/*		#about_you div.content{
-			position: relative;
-			bottom:15px;
-			text-align: center !important;
+		#about_you .centered-client{			
+			float:none;
+		}
 
-		}*/
 
 /*********************************************************************************/
 /* Client - Single Page Layout                                                   */
@@ -1717,6 +1694,7 @@
 
 #sidebar img{
 	max-width: 80%;
+	max-height: 25%;
 }
 
 #single-client, #single-aboutus{

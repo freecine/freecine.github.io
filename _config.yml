@@ -59,6 +59,7 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
+          value: "client-layout"
       - name: "subtitle"
         field:
           element: "textarea"
@@ -67,6 +68,10 @@ prose:
         field:
           element: "text"
           label: "Enter the name of the logo image you have uploded"
+      - name: "order"
+        field:
+          element: "number"
+          label: "Enter the order number of the posts"
     _posts/lets_talk_content:
       - name: "category"
         field:

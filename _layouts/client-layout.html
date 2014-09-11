@@ -1,6 +1,10 @@
+
 {% include header.html %}
  <div id="header_single">
   {% include nav.html %}
+  {% if page.subtitle %}
+    {% assign post_subtitle = page.subtitle | markdownify %}
+  {% endif %}
  </div>
  <div id="single-client" class="wrapper style1">
 
@@ -14,10 +18,10 @@
                 <header>
                   <h2>{{page.title}}</h2>
                   <span class="byline">
-                    {{page.subtitle}}
+                    {{ post_subtitle }}
                   </span>
                 </header>
-                
+                <h2> Our Role </h2>
                 <p>
                  {{ content }}
                 </p>
@@ -25,8 +29,6 @@
             </div>
           </div>          
         </div>
-
       </div>
-
 
 {% include footer.html %}
