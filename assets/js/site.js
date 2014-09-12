@@ -6,7 +6,8 @@ $(document).ready(function() {
 
   // Set Fullscreen slideshow images
 	$('#header').backstretch([
-		"assets/images/slider_images/black_kids_africa.jpg",
+		"assets/images/slider_images/dc_flowers.jpg",
+    "assets/images/slider_images/black_kids_africa.jpg",
 		"assets/images/slider_images/business.jpg",
 		"assets/images/slider_images/nyc_downtown_french_arch.jpg",
     "assets/images/slider_images/judge.jpg",
@@ -44,6 +45,30 @@ $(document).ready(function() {
         load: {
         sort: 'postorder:asc'
       },
+      callbacks: {
+          onMixEnd: function(state){
+          var $last = state.$show.last();
+          var $post_number = $last.attr('data-postorder');
+
+          //Check if the last post is divible by 3. If not, then make "centered type". 
+          if ($post_number % 3 != 0){
+            state.$targets.removeClass('centered-client');
+            $last.addClass('centered-client');
+
+              // Checks to see if the preceding element is also not divisble by 3. If so then add centered type.
+              var $second_last = $last.prev();
+              var $second_last_count = $second_last.attr('data-postorder');
+              
+              if ($second_last_count % 3 != 0){
+                $second_last.addClass('centered-client');
+              }
+
+
+
+          }
+
+        } 
+      }
     });
 
   

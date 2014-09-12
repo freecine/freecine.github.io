@@ -1,27 +1,33 @@
-    <!-- About You -->
-      <div id="about_you" class="wrapper style2">
-        
-        <section  class="container special">
-          <header>
-           {% for post in site.categories.header_about_you %}
-            <h2>{{post.title}}</h2>
-            <span class="byline">{{post.subtitle}}</span>
-            {% endfor %}
-          </header>
-          <div id="about_you_container" class="row">
-           {% for post in site.categories.about_you %}              
-              <div class="3u mix client" data-postorder="{{post.order}}">              
-                <header>
-                  <img src="{{ site.assets.logos }}{{ post.logo }}" />                  
-                </header>
-                <div class="content">
-                  <h3>{{ post.title }}</h3>                
-                  <p>{{ post.subtitle | truncatewords: 20 }}</p>
-                  <a href="{{post.url}}" class="learn-more">Learn More</a>
-                </div> 
-              </div>              
-            {% endfor %}
-          </div>
-        </section>
+  <!-- About You -->
+  <div id="about_you" class="wrapper style2">
+    
+    <section  class="container special">
+      <header>
+       {% for post in site.categories.header_about_you %}
+        <h2>{{post.title}}</h2>
+        <span class="byline">{{post.subtitle}}</span>
+        {% endfor %}
+      </header>
 
-      </div>
+        <div id="about_you_container" class="row">
+                  {% for post in site.categories.about_you %}
+                        <div class="4u mix client" data-postorder="{{post.order}}">              
+                          <header class="table">
+                            <div class="table-inner">
+                              <img src="{{ site.assets.logos }}{{ post.logo }}" />
+                            </div>            
+                          </header>
+                          <div class="content">
+                            <h3>{{ post.title }}</h3>                
+                            <p>{{ post.subtitle | markdownify | truncatewords: 20 }}</p>
+                          </div> 
+                          <div class="read-more">
+                            <a href="{{post.url}}" class="learn-more">Learn More</a>
+                          </div>
+                        </div>
+                  {% endfor %}
+
+          </div>          
+        </div>
+    </section>
+  </div>

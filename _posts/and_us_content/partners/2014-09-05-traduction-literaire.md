@@ -1,12 +1,5 @@
 ---
-category: partners
-published: false
-url: 
-  - "http://www.traduction-litteraire.com/"
-  - _posts/and_us_content/partners/logo.png
-  - "http://www.traduction-litteraire.com/,_posts/and_us_content/partners/logo.png"
-  - _posts/and_us_content/partners/Logo_GlobalFund_en.png
-logo: Logo_GlobalFund_en.png
+category: partner
+website: http://www.traduction-litteraire.com/
+logo: trad_litteraire.png
 ---
-
-
