@@ -53,6 +53,11 @@ prose:
         field:
           element: "hidden"
           value: ''
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
     _posts/about_you_content:
       - name: "category"
         field:
