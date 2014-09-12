@@ -113,7 +113,7 @@ prose:
       - name: "category"
         field:
           element: "hidden"
-          value: "partners"
+          value: "partner"
       - name: "url"
         field:
           element: "text"
