@@ -69,7 +69,7 @@ prose:
           value: "client-layout"
       - name: "subtitle"
         field:
-          element: "text"
+          element: "textarea"
           label: "Enter a subtitle area about the client"
       - name: "logo"
         field:
