@@ -84,6 +84,9 @@ prose:
         field:
           element: "number"
           label: "Enter the order number of the posts"
+      - name: "icon"
+        field:
+          element: "text"
     _posts/and_us_content/partners:
       - name: "category"
         field:
