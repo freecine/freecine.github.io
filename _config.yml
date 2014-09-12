@@ -78,7 +78,7 @@ prose:
           value: ''
       - name: "order"
         field:
-          element: "number"
+          element: "text"
           label: "Enter the order number of the posts"
           value: ''
       - name: "title"
@@ -97,7 +97,7 @@ prose:
           value: ''
       - name: "order"
         field:
-          element: "number"
+          element: "text"
           label: "Enter the order number of the posts"
           value: ''
       - name: "icon"
