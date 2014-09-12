@@ -1,9 +1,9 @@
 ---
 layout: "client-layout"
 category: about_you
-published: false
-title: New Client
-subtitle: Google is a large company that does large scale things.
+published: true
+title: Google
+subtitle: null
 logo: google_logo.png
 order: 
   - "11"
