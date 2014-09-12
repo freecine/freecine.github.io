@@ -24,7 +24,7 @@ social:
   linkedin: 'https://www.linkedin.com/pub/francine-le-touz%C3%A9/6/171/396'
 google:
   analytics : 'UA-54754046-1'
-  domain: 'www.freecinetranslations.com'
+  domain: 'freecinetranslations.com'
 
 assets:
   img: '/assets/images/'
@@ -34,7 +34,7 @@ assets:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'www.freecinetranslations.com'
+  siteurl: 'freecinetranslations.com'
   media: 'assets/images/uploads/'
   ignore:
     - index.md
