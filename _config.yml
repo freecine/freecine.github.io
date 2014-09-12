@@ -35,7 +35,7 @@ assets:
 prose:
   rooturl: '_posts'
   siteurl: 'www.freecinetranslations.com'
-  media: 'assets/images/uploads'
+  media: 'media'
   ignore:
     - index.md
     - index.html
