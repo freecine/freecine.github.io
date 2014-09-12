@@ -35,7 +35,7 @@ assets:
 prose:
   rooturl: '_posts'
   siteurl: 'freecinetranslations.com'
-  media: 'assets/images/uploads'
+  media: '/assets/images/uploads/'
   ignore:
     - index.md
     - index.html
@@ -71,14 +71,17 @@ prose:
         field:
           element: "textarea"
           label: "Enter a subtitle area about the client"
+          value: ''
       - name: "logo"
         field:
           element: "text"
           label: "Enter the name of the logo image you have uploded"
+          value: ''
       - name: "order"
         field:
           element: "number"
           label: "Enter the order number of the posts"
+          value: ''
       - name: "title"
         field:
           element: "text"
@@ -97,9 +100,11 @@ prose:
         field:
           element: "number"
           label: "Enter the order number of the posts"
+          value: ''
       - name: "icon"
         field:
           element: "text"
+          value: ''
       - name: "title"
         field:
           element: "text"
@@ -114,10 +119,12 @@ prose:
         field:
           element: "text"
           label: "Enter the url of the partner website"
+          value: ''
       - name: "logo"
         field:
           element: "text"
           label: "Enter the name of the logo image you have uploded"
+          value: ''
       - name: "title"
         field:
           element: "text"
