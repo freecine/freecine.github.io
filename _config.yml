@@ -9,7 +9,7 @@ seo:
   keywords: 'English to French Legal Translation, Spanish to French Translation, NGOs, International Organizations, Law Firms, International Courts, Subtitling'
 
 contact:
-  name: 'Freecine Translations LLC'
+  name: 'Freecine Translations, LLC'
   phone: '+ 1 301 530 0893'
   email: ''
   address-line1: '9527 Ewing Drive, Bethesda MD 20817'
@@ -23,8 +23,8 @@ permalink: /:title
 social:
   linkedin: 'https://www.linkedin.com/pub/francine-le-touz%C3%A9/6/171/396'
 google:
-  analytics : ''
-  domain: ''
+  analytics : 'UA-54754046-1'
+  domain: 'www.freecinetranslations.com'
 
 assets:
   img: '/assets/images/'
