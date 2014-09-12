@@ -11,5 +11,3 @@ order:
 ---
 
 We contributed to translation activities for [Google](http://www.google.com).
-
-![google_logo.png](/google_logo.png)
