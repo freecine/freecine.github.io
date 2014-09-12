@@ -48,9 +48,11 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
+          value: ''
       - name: "category"
         field:
           element: "hidden"
+          value: ''
     _posts/about_you_content:
       - name: "category"
         field:
@@ -80,6 +82,7 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
+          value: ''
       - name: "order"
         field:
           element: "number"
