@@ -1,9 +1,9 @@
 ---
 category: partner
 published: false
-title: Google Parnter
+title: Google Partner
 logo: "company-page_brin.png"
-url: "http://www.google.com"
+website: "http://www.google.com"
 ---
 
 
