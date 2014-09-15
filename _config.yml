@@ -1,12 +1,12 @@
-name: Freecine Translations
+name: Freecine Translations - Legal Translation
 highlighter: null
 markdown: kramdown
 paginate: 10
 version: 1
 seo:
   author: "Bivee LLC"
-  description: "Superb French to English Translations - focusing on international development, legal and film translation."
-  keywords: 'English to French Legal Translation, Spanish to French Translation, NGOs, International Organizations, Law Firms, International Courts, Subtitling'
+  description: "Legal, Corporate and Film Translation"
+  keywords: "Legal Translation, Corporate Translation, Subtitling, Institutional Translation, NGOs, International Organizations, Law Firms, International Courts, Interpreting, Conference Interpreting, Employment Agreements, Sale Agreements, Bylaws, Deeds, International Arbitration, Wills, Affidavits, Conveyance Deeds, Legal Opinions, Legal Decisions, Judgments, English, French, Spanish, Arabic, Portuguese, Italian, German"
 
 contact:
   name: 'Freecine Translations, LLC'
@@ -25,6 +25,7 @@ social:
 google:
   analytics : 'UA-54754046-1'
   domain: 'freecinetranslations.com'
+  verificiation: 
 
 assets:
   img: '/assets/images/'
