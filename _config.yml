@@ -118,7 +118,7 @@ prose:
         field:
           element: "hidden"
           value: "true"
-    _posts/and_us_content/partners:
+    _posts/partners:
       - name: "category"
         field:
           element: "hidden"
