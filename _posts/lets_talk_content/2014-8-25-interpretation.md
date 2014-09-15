@@ -10,5 +10,3 @@ order:
 ---
 
 Freecine Translations works with highly qualified interpreters around the world to provide interpretation services at any location from and into any languages. Please contact us in advance to plan your conferences and meetings. 
-
-- I also [**interpret things.**](http://www.google.com) this is _italic_!
