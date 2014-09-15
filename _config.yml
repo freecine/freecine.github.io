@@ -115,7 +115,7 @@ prose:
         field:
           element: "hidden"
           value: "partner"
-      - name: "url"
+      - name: "website"
         field:
           element: "text"
           label: "Enter the url of the partner website"
