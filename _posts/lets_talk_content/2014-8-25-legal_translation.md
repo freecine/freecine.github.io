@@ -3,9 +3,7 @@ layout: ""
 category: lets_talk
 title: Legal Translation
 icon: "fa-legal"
-order: 
-  - 2
-  - "2"
+order: "2"
 published: true
 ---
 
