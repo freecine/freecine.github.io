@@ -3,9 +3,7 @@ layout: ""
 category: lets_talk
 title: Corporate Translation
 icon: "fa-building"
-order: 
-  - 1
-  - "1"
+order: "1"
 published: true
 ---
 
