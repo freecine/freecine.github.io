@@ -1600,9 +1600,17 @@
 	
 		#about_you{
 			margin:0px;	
+			text-align: center;
 		}
 
-		#about_you header.table {
+		#about_you header h2 {
+			padding-top: 4em;
+		}
+
+
+/* Centered Vertically */
+
+		#about_you .table {
 		    display: table;
 		    border-collapse: collapse;
 		    width: 100%;
@@ -1610,48 +1618,10 @@
 		    position: relative;
 		    z-index: 2;
 		}
-		#about_you header.table .table-inner {
+		#about_you .table .table-inner {
 		    display: table-cell;
 		    vertical-align: middle;
 		    text-align: center; 
-		}
-
-		#about_you header h2 {
-			padding-top: 4em;
-		}
-
-		#about_you_container{
-			background-color: #F29DB7;
-			margin-left:auto;
-			margin-right:auto;
-			display:block;
-			position:relative;
-			max-width:100%;			
-		}
-
-		#about_you img {
-			max-height: 100px;
-			max-width: 75%;
-			margin-left: auto;
-			margin-right: auto;
-			display: block;
-			margin-bottom: 1.2em;
-		}
-
-		#about_you .client{
-			background: #fff;
-			padding:1.2em !important;
-			margin: 2%;
-			color: #5b5b5b;
-			min-height: 450px;
-			position: relative;
-			padding-bottom: 3em;
-			width:29.111%;
-		}
-
-		#about_you .client h3{
-			text-align: center;
-			text-transform: uppercase;
 		}
 
 		#about_you .container{
@@ -1659,11 +1629,66 @@
 			text-align: center !important;
 		}
 
-		#about_you .read-more{
-			position: absolute;
-			bottom: 1em;
-			width: 85%;
+/* Container for card area */
+
+		#about_you_container{
+			background-color: #F29DB7;
+			margin-left:auto;
+			margin-right:auto;
+			display:block;
+			position:relative;
+			max-width:100%;
+			padding-top: 2em;
+			padding-bottom: 2em;			
 		}
+
+/* Card Styles */
+		#about_you .client{
+			background: #fff;
+			padding:1.2em !important;
+			display: inline-block;
+			float: none;
+			color: #5b5b5b;
+			position: relative;
+			width:29.111%;
+			margin-bottom: 2em;
+			margin-left: 1em;
+			margin-right: 1em;
+		}
+
+/* Header of Card */
+
+		#about_you header.client-logo {
+			display: block;
+			width: 100%;
+			height: 8em;
+		}
+
+		#about_you header.client-logo img {
+			max-width: 65%;
+			max-height: 8em;
+			height: auto;
+		}
+
+/* Title  of Card */
+		#about_you .client h3{
+			text-align: center;
+			text-transform: uppercase;
+			height: 3em;
+		}
+
+/* Written content of Card */
+
+		#about_you .description {
+			height: 10em;
+			display: block;
+			padding-top: 1em;
+			padding-bottom: 1em;
+
+		}
+
+	
+/* Read more of Card */
 
 		#about_you a.learn-more{			
 			background: rgba(128,128,128,0.05);
@@ -1678,16 +1703,6 @@
 			font-size:.8em;
 			vertical-align: bottom;
 		}
-
-		#about_you header{
-			min-height: 7em;
-		}
-
-		#about_you .centered-client{			
-			float:none;
-			margin-left:24px;
-		}
-
 
 /*********************************************************************************/
 /* Client - Single Page Layout                                                   */
